@@ -1,8 +1,8 @@
-var playlist = {'Cut to the feeling': 'Carly Rae Jepsen'}
+var playlist = {'Carly Rae Jepsen': 'Cut to the feeling'}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+  playlist[artistName] = songTitle;
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
